@@ -1,0 +1,54 @@
+{
+  "title": "Munja LST Documentation",
+  "description": "Developer documentation for the Munja liquid staking protocol",
+  "author": "Munja Team",
+  "language": "en",
+  "gitbook": ">=3.2.3",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "code",
+    "collapsible-menu",
+    "github",
+    "anchors",
+    "search-plus",
+    "copy-code-button",
+    "expandable-chapters",
+    "-lunr",
+    "-search",
+    "prism",
+    "-highlight"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/your-org/munja-lst"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-tomorrow.css"
+      ],
+      "lang": {
+        "rust": "rust",
+        "solidity": "solidity",
+        "bash": "bash",
+        "json": "json"
+      }
+    },
+    "theme-default": {
+      "showLevel": true
+    }
+  },
+  "variables": {
+    "version": "1.0.0",
+    "project": "Munja LST"
+  },
+  "links": {
+    "sidebar": {
+      "GitHub": "https://github.com/your-org/munja-lst",
+      "Website": "https://munja.io"
+    }
+  }
+}
